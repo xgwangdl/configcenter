@@ -2,7 +2,7 @@ server:
   port: 7201
 eureka:
   instance:
-    appname: client1
+    appname: client-a-1
     metadata-map:
       host-mark:release
   client:
