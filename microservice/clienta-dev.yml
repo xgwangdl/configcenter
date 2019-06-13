@@ -2,7 +2,9 @@ server:
   port: 7201
 eureka:
   instance:
-    hostname: client1
+    appname: client1
+    metadata-map:
+      host-mark:release
   client:
     registerWithEureka: true
     fetchRegistry: true
