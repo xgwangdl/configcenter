@@ -2,7 +2,7 @@ server:
   port: 7202
 eureka:
   instance:
-    appname: client1
+    appname: client-a-2
     metadata-map:
       host-mark:gray
   client:
