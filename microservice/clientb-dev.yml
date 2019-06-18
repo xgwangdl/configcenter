@@ -4,7 +4,7 @@ eureka:
   instance:
     appname: client-b-1
     metadata-map:
-      host-mark:release
+      host-mark: release
   client:
     registerWithEureka: true
     fetchRegistry: true
