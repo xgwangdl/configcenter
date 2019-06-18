@@ -10,7 +10,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
-      
+   
+spring.hostname: host2
+
 feign:
   hystrix:
     enabled: true
