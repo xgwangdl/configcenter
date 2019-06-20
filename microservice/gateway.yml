@@ -12,5 +12,5 @@ eureka:
 zuul:
   routes:
     client-a:
-      patch: /userinfo/**
+      path: /userinfo/**
       serviceId: client-a
