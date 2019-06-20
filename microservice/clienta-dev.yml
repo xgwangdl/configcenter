@@ -9,6 +9,8 @@ eureka:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka,http://127.0.0.1:8763/eureka
       
+spring.hostname: production
+
 feign:
   hystrix:
     enabled: true
