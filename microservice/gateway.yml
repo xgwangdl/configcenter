@@ -14,7 +14,6 @@ zuul:
     client-a:
       path: /userinfo/**
       serviceId: client-a
-zuul:
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 60000
