@@ -14,3 +14,7 @@ spring.hostname: production
 feign:
   hystrix:
     enabled: true
+    
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
