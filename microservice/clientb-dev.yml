@@ -11,7 +11,7 @@ eureka:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
       
-sleep: 100
+sleep: 3000
 
 feign:
   hystrix:
