@@ -14,3 +14,4 @@ zuul:
     client-a:
       path: /userinfo/**
       serviceId: client-a
+
