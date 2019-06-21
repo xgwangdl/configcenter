@@ -14,5 +14,12 @@ zuul:
     client-a:
       path: /userinfo/**
       serviceId: client-a
-
+zuul:
+  host:
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 60000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+  
 gateway.token: abc
