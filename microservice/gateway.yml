@@ -15,4 +15,4 @@ zuul:
       path: /userinfo/**
       serviceId: client-a
 
-gateway.token: abc
+gateway.token: abcd
