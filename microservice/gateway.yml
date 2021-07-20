@@ -18,7 +18,7 @@ zuul:
       path: /orderinfo/**
       serviceId: client-b
   host:
-    connect-timeout-millis: 15000
+    connect-timeout-millis: 40000
     socket-timeout-millis: 60000
 ribbon:
   ReadTimeout: 10000
