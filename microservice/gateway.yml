@@ -25,3 +25,11 @@ ribbon:
   ConnectTimeout: 10000
   
 gateway.token: abc
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
